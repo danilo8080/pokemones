@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información de Pokémon</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Información de Pokémon</h1>
+        <label for="idPokemon">Ingresa el ID o Nombre del Pokémon:</label>
+        <input type="text" id="idPokemon" placeholder="Ejemplo: pikachu">
+        <button id="buscarBoton">Buscar</button>
+        <div id="infoPokemon" class="oculto">
+            <h2 id="nombrePokemon"></h2>
+            <img id="imagenPokemon" src="" alt="Pokémon">
+            <h3>Tipos:</h3>
+            <ul id="tiposPokemon"></ul>
+            <h3>Habilidades:</h3>
+            <ul id="habilidadesPokemon"></ul>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
