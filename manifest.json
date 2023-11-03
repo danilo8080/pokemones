@@ -3,7 +3,7 @@
     "short_name": "Pokémon",
     "icons": [
       {
-        "src": "icon.png",
+        "src": "/pokemones/icon.png",
         "sizes": "192x192",
         "type": "image/png"
       }
